@@ -11,3 +11,9 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+insp1545:
+  title: Notebook Dell Inspiron 1545
+  description: Inter Core2Duo Processor 4GB Memory
+  price: 2500.0
+  image_url: insp1545.jpg
