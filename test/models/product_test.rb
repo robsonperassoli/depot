@@ -20,7 +20,7 @@ class ProductTest < ActiveSupport::TestCase
   end
 
   test "product price must be positive" do
-  	product = Product.new(title: 'Nootebook', 
+  	product = Product.new(title: 'Nootebook with more characters', 
 				  		  description: "Just another notebook...", 
 				  		  image_url: "some_image.jpg")
   	price_validation_message = ["must be greater than or equal to 0.01"]
