@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   helper_method :loaded_at
 
   def loaded_at
-  	DateTime.now.to_formatted_s
+  	DateTime.now.strftime('%d/%m/%Y at %H:%M')
   end
 
 end
